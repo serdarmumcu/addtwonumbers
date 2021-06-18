@@ -11,7 +11,7 @@ class AddServiceUnitTest {
 	void addTwoNumbersTest() {
 		AddService service = new AddService(); //Arrange
 		int result = service.addTwoNumbers(3,5); //Act
-		assertEquals(9,result); //Assert
+		assertEquals(8,result); //Assert
 	}
 
 }
