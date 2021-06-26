@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class AddService {
-    public int addTwoNumbers(int num1,int num2){
+    public double addTwoNumbers(double num1,double num2){
         return  num1 + num2;
     }
 }

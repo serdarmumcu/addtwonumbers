@@ -10,8 +10,15 @@ class AddServiceUnitTest {
 	@Test
 	void addTwoNumbersTest() {
 		AddService service = new AddService(); //Arrange
-		int result = service.addTwoNumbers(5,3); //Act
+		double result = service.addTwoNumbers(5,3); //Act
 		assertEquals(8,result); //Assert
+	}
+
+	@Test
+	void addTwoFloatNumbersTest() {
+		AddService service = new AddService(); //Arrange
+		double result = service.addTwoNumbers(5.2,3.3); //Act
+		assertEquals(8.5,result); //Assert
 	}
 
 }
