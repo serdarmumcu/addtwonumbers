@@ -11,14 +11,14 @@ class AddServiceUnitTest {
 	void addTwoNumbersTest() {
 		AddService service = new AddService(); //Arrange
 		double result = service.addTwoNumbers(5,3); //Act
-		assertEquals(2,result); //Assert
+		assertEquals(8,result); //Assert
 	}
 
 	@Test
 	void addTwoFloatNumbersTest() {
 		AddService service = new AddService(); //Arrange
 		double result = service.addTwoNumbers(5.3,3.3); //Act
-		assertEquals(2.0,result); //Assert
+		assertEquals(8.6,result); //Assert
 	}
 
 
