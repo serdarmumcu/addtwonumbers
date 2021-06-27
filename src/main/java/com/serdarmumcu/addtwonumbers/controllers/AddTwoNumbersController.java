@@ -12,7 +12,7 @@ public class AddTwoNumbersController {
     private AddService service;
 
     @PostMapping("/addnumbers")
-    public double addnumbers(@RequestBody AddRequest request){
+    public int addnumbers(@RequestBody AddRequest request){
         return service.addTwoNumbers(request.getNum1(),request.getNum2());
     }
 }
