@@ -18,7 +18,7 @@ class AddServiceUnitTest {
 	void addTwoDoubleNumbersTest() {
 		AddService service = new AddService(); //Arrange
 		double result = service.addTwoNumbers(5.2,3.3); //Act
-		assertEquals(8.5,result); //Assert
+		assertEquals(8,result); //Assert
 	}
 
 }
